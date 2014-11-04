@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BarberShop</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+      <ul>
+        <li class="btn btn-default"><%= link_to('Home', root_path) %></li>
+        <li class="btn btn-default"><%= link_to('About', static_about_path) %></li>
+        <li class="btn btn-default"><%= link_to('Contact', static_contact_path) %></li>
+      </ul>
+    </div>
+  </nav>
+
+<%= yield %>
+
+</body>
+</html>
