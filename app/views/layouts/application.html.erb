@@ -7,18 +7,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-    <%= link_to image_tag("unas_barbershop_logo.jpg", :size => "1000x300") %>
-  <nav class="navbar navbar-inverse" role="navigation">
-    <div class="container">
-      <ul>
-        <li class="btn btn-default"><%= link_to('Home', root_path) %></li>
-        <li class="btn btn-default"><%= link_to('About', static_about_path) %></li>
-        <li class="btn btn-default"><%= link_to('Contact', static_contact_path) %></li>
-      </ul>
-    </div>
-  </nav>
 
+  <div class="container">
+      <%= link_to image_tag("unas_barber_shop_header.jpg", :class => "img_header") %>
 <%= yield %>
+  </div>
 
 </body>
 </html>

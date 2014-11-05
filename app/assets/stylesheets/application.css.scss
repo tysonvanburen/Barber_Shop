@@ -1,4 +1,62 @@
 @import 'bootstrap';
-img {
-  margin-left: 225px;
+
+body {
+  background-color: #525252;
+}
+
+img.img_header {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px black;
+}
+
+div.col-md-5.col-md-offset-1 a img {
+  max-width: 45%;
+}
+
+h1.text-center {
+  font-size: 4em;
+  color: white;
+  border-top: 15px solid red;
+  padding-top: 15px;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+p.lead {
+  font-size: 38px;
+  text-align: center;
+  color: white;
+  border-bottom: 15px solid red;
+  padding-bottom: 15px;
+}
+
+ul li {
+  font-size: 20px;
+  color: white;
+  margin-left: 140px;
+}
+
+h5 {
+  font-size: 34px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 60px;
+}
+
+h4 {
+  font-size: 34px;
+  color: white;
+  text-align: center;
+}
+
+em {
+  font-size: 20px;
+  color: red;
+  margin-left: 150px;
 }
