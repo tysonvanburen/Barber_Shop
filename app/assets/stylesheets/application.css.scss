@@ -22,13 +22,13 @@ img.main_page {
   margin: 31px;
 }
 
+
 p.lead {
   padding: 50px;
   padding-top: 10px;
   font-size: 17px;
   text-align: justify;
   color: white;
-  border-right: 2px solid red;
 }
 
 h1.text-center {
@@ -48,8 +48,14 @@ h1.lead {
 
 }
 
+ul li {
+  color: white;
+  font-size: 17px;
+  margin-left: 80px;
+}
+
 footer {
-  background-color: gray;
+  background-color: rgba(200,200,200,0.5);
   text-align: center;
   padding: 10px;
   margin-bottom: 15px;
