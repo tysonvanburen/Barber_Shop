@@ -1,7 +1,12 @@
 @import 'bootstrap';
 
 body {
+  background-color: white;
+}
+
+div.container {
   background-color: #525252;
+  max-width: 75%;
 }
 
 img.img_header {
@@ -10,53 +15,43 @@ img.img_header {
   box-shadow: 0px 0px 10px black;
 }
 
-div.col-md-5.col-md-offset-1 a img {
-  max-width: 45%;
-}
-
-h1.text-center {
-  font-size: 4em;
-  color: white;
-  border-top: 15px solid red;
-  padding-top: 15px;
-}
-
-p {
-  color: white;
-  font-size: 20px;
-  line-height: 34px;
+img.main_page {
+  max-width: 85%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px black;
+  margin: 31px;
 }
 
 p.lead {
-  font-size: 38px;
+  padding: 50px;
+  padding-top: 10px;
+  font-size: 17px;
+  text-align: justify;
+  color: white;
+  border-right: 2px solid red;
+}
+
+h1.text-center {
+  font-size: 3em;
+  color: white;
+  border-top: 10px solid red;
+  border-bottom: 10px solid red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+h1.lead {
+  font-size: 27px;
   text-align: center;
   color: white;
-  border-bottom: 15px solid red;
-  padding-bottom: 15px;
+
 }
 
-ul li {
-  font-size: 20px;
-  color: white;
-  margin-left: 140px;
-}
-
-h5 {
-  font-size: 34px;
-  color: white;
+footer {
+  background-color: gray;
   text-align: center;
-  margin-bottom: 30px;
-  padding-top: 60px;
-}
-
-h4 {
-  font-size: 34px;
-  color: white;
-  text-align: center;
-}
-
-em {
-  font-size: 20px;
-  color: red;
-  margin-left: 150px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 2px;
 }
