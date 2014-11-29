@@ -6,5 +6,5 @@
 //= require_self
 
 $('.carousel').carousel({
-  interval: 1000
+  interval: 3000
 })
