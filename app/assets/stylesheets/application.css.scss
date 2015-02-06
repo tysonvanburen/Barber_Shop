@@ -6,7 +6,22 @@ body {
 
 nav.navbar.navbar-inverse {
   margin-bottom: 0px;
-  box-shadow: 0px 12px 18px black;
+  padding-bottom: 15px;
+}
+
+ul.nav.navbar-nav li a {
+  color: white;
+}
+
+ul.nav.navbar-nav li {
+  margin-left: 25px;
+  padding-top: 14px;
+  font-size: 19px;
+}
+
+ul.nav.navbar-nav.navbar-right {
+  padding-right: 48px;
+  padding-top: 15px;
 }
 
 div.container {
@@ -23,6 +38,12 @@ div.container {
 
 div#carousel-example-generic.carousel.slide {
   box-shadow: 0px 12px 18px black;
+}
+
+div.col-md-6 {
+  padding-right: 48px;
+  padding-left: 48px;
+  padding-top: 40px;
 }
 
 img.img_header {
